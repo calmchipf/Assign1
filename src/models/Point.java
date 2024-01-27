@@ -10,20 +10,20 @@ public class Point {
         setY(y_cord);
     }
 
-    public void setX(double x_cord) {
-        this.x = x_cord;
-    }
-
-    public void setY(double y_cord) {
-        this.y = y_cord;
-    }
-
     public double getX() {
         return x;
     }
 
+    public void setX(double x_cord) {
+        this.x = x_cord;
+    }
+
     public double getY() {
         return y;
+    }
+
+    public void setY(double y_cord) {
+        this.y = y_cord;
     }
 
     public double distance(Point dest_point) {
