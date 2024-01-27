@@ -35,4 +35,5 @@ public class Point {
     public String toString {
         return "Point = { x: " + this.getX() + ", y: " + this.getY() + " }";
     }
+
 }
