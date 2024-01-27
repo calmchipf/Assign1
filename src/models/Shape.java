@@ -2,7 +2,7 @@ package models;
 import java.util.ArrayList;
 public class Shape {
 
-    ArrayList<Point> points;  // Creating an attribute for the ArrayLis
+    private ArrayList<Point> points;  // Creating an attribute for the ArrayLis
     public Shape(){  // A default constructor allocating memory for our 'points' attribute
         points = new ArrayList<Point>();
     }
